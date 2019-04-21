@@ -6,12 +6,20 @@
 /*** Mixins ***/
 /** Font **/
 @font-face {
-  font-family: "Merriweather";
-  src: url("../fonts/Merriweather-Black.ttf"); }
+    font-family: "Merriweather";
+    src: url("../fonts/wqy-microhei.ttc");
+
+  /* font-family: "Merriweather"; */
+  /* src: url("../fonts/Merriweather-Black.ttf"); */
+}
+
 
 @font-face {
-  font-family: "Merriweather-Light";
-  src: url("../fonts/Merriweather-Light.ttf"); }
+    font-family: "Merriweather-Light";
+    src: url("../fonts/wqy-microhei.ttc");
+  /* font-family: "Merriweather-Light"; */
+  /* src: url("../fonts/Merriweather-Light.ttf"); */
+}
 
 /*** Base ***/
 html, body {
@@ -26,7 +34,7 @@ time, mark, audio, video, iframe, main, header, footer {
   outline: 0 none; }
 
 body {
-  font-family: -apple-system, Verdana, "PingFang SC", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: -apple-system,  "WenQuanYi Micro Hei", Verdana, "PingFang SC", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   color: #656565;
   -webkit-font-smoothing: antialiased;
   background-color: #F7F8FA; }

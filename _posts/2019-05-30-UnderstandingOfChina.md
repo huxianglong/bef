@@ -91,7 +91,9 @@ tags: 日记
 但是中国特有的户口制度让农民工没有和城市居民同等的享受社会的发展，这一点是非常不
 公平的。
 
-**农业公有制**小农经济相对机械化的大农庄绝对是落后的。即便是现在的中国，农业的成
+**农业公有制**
+
+小农经济相对机械化的大农庄绝对是落后的。即便是现在的中国，农业的成
 本也远高于美国，一个重要的原因就是在此。
 
 中国模仿苏联搞集体农庄的一个重要原因，就是想提高亩产。最终这个实验以失败告终，当
@@ -174,9 +176,10 @@ tags: 日记
   Jacques](https://www.youtube.com/watch?v=XewnyUJgyA4)
   
 有一个智库的辩论节目还挺有意思的，很有英式辩论的那种范：
-* [The Next Silicon Valley Is China | Debate #1](https://www.youtube.com/watch?v=b8InU08RoZ8)
-* [The Belt & Road Initiative Is a Trillion-Dollar Blunder | Debate # 2](https://www.youtube.com/watch?v=fgXmUubTIYw)
-* [The U.S. and China Will Both Lose the Trade War | Debate #3](https://www.youtube.com/watch?v=9CddK86g90o)
+
+* [The Next Silicon Valley Is China \| Debate #1](https://www.youtube.com/watch?v=b8InU08RoZ8)
+* [The Belt & Road Initiative Is a Trillion-Dollar Blunder \| Debate # 2](https://www.youtube.com/watch?v=fgXmUubTIYw)
+* [The U.S. and China Will Both Lose the Trade War \| Debate #3](https://www.youtube.com/watch?v=9CddK86g90o)
 
 但是这些视频的点击量其实都不是很高，可以看出来普通美国人其实不太关心这些事情，可以说是一种傲慢的体现吧。
 

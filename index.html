@@ -89,14 +89,6 @@ header-img: assets/img/banner.jpg
             {% endif %}
         </div>
 
-        {% if site.search %}
-        <div class="search-card">
-            <input id="search_input" type="text" placeholder="Search...">
-            <i class="iconfont icon-search"></i>
-            <div class="search_result"></div>
-        </div>
-        {% endif %}
-
         {% if site.RSS %}
         <div class="g-sidebar">
          <section class="newsletter-card">
@@ -117,15 +109,27 @@ header-img: assets/img/banner.jpg
                 </form> -->
                 <!-- <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=github/LmJx', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"> -->
                 <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=github/LmJx', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-                <p>Enter your email address:</p>
+                <p>Email:</p>
                 <!-- <p><input type="text" style="width:140px" name="email"/></p> -->
-                <p><input type="text" name="email"/></p>
+                <!-- <p><input type="text" name="email"/></p> -->
+                <input class="newsletter-email" type="text" name="email" placeholder="name@example.com" />
                 <input type="hidden" value="github/LmJx" name="uri"/>
                 <input type="hidden" name="loc" value="en_US"/>
-                <input type="submit" value="订阅" />
+                <!-- <input type="submit" value="订阅" /> -->
+                <input class="newsletter-submit" type="submit" value="订阅" />
                 <!-- <p>Delivered by <a href="https://feedburner.google.com" target="_blank">FeedBurner</a></p></form> -->
                 </form>
                 </section>
+        </div>
+        {% endif %}
+
+
+
+        {% if site.search %}
+        <div class="search-card">
+            <input id="search_input" type="text" placeholder="Search...">
+            <i class="iconfont icon-search"></i>
+            <div class="search_result"></div>
         </div>
         {% endif %}
 

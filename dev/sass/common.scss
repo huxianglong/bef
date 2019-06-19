@@ -235,6 +235,9 @@
 }
 
 .g-sidebar-wrapper {
+    .newsletter-card {
+        @include cardStyle;
+    }
     float: right;
     width: 240px;
 }

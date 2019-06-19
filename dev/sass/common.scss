@@ -235,6 +235,28 @@
 }
 
 .g-sidebar-wrapper {
+    float: right;
+    width: 240px;
+}
+
+.g-sidebar {
+    @include cardStyle;
+    section {
+        padding: 30px 0;
+        border-bottom: 1px solid #E7EAF1;
+        &:first-child {
+            padding-top: 0;
+        }
+        &:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .tag {
+            margin-bottom: 8px;
+        }
+    }
+}
+
     .newsletter-card {
         @include cardStyle;
         input, .search_item {
@@ -263,13 +285,13 @@
 
         .newsletter-email,
         .newsletter-submit {
+            @include cardStyle;
             display: inline-block;
             border-radius: 4px;
             padding: 0;
             align-self: center;
         }
         .newsletter-email {
-            font-family: $serif-primary;
             text-align: center;
             font-size: .9em;
         }
@@ -284,27 +306,7 @@
             font-weight: 600;
             
     }
-    float: right;
-    width: 240px;
-}
 
-.g-sidebar {
-    @include cardStyle;
-    section {
-        padding: 30px 0;
-        border-bottom: 1px solid #E7EAF1;
-        &:first-child {
-            padding-top: 0;
-        }
-        &:last-child {
-            border-bottom: none;
-            padding-bottom: 0;
-        }
-        .tag {
-            margin-bottom: 8px;
-        }
-    }
-}
 
 .search-card {
     position: relative;

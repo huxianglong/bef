@@ -79,12 +79,12 @@ header-img: assets/img/banner.jpg
 
         {% if site.RSS %}
          <section class="newsletter-card">
-                        <form-inline action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=github/LmJx', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                        <form class="form-inline" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=github/LmJx', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
                 <input type="hidden" value="github/LmJx" name="uri"/>
                 <input type="hidden" name="loc" value="en_US"/>
                 <input class="newsletter-email" type="text" name="email" placeholder="name@example.com" />
                 <input class="newsletter-submit button" type="submit" value="订阅" />
-                </form-inline>
+                </form>
                 </section>
         {% endif %}
 

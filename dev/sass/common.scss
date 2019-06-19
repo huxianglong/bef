@@ -260,7 +260,7 @@
     .newsletter-card {
         @include cardStyle;
         input {
-            font-family: "WenQuanYi Micro Hei",
+            font-family: "WenQuanYi Micro Hei"
         }
         input.newsletter-submit {
             float: right;
